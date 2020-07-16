@@ -10,7 +10,7 @@ Due 20/00/00 by 5:00 pm.
 
 Open `hw1.Rmd` and change the text after "author:" to include your name. Once you have done that, knit the document and check to see that your name now shows up in the rendered output.
 
-If everything looks good, you should now stage your changes, both for `hw1.Rmd` and `hw1.html`, and the commit them with the message "Added name". Finally, now you should try to push these changes back to GitHub (using the green upward facing arrow). If this step fails remember that you also need to tell git who you are by giving it a name and email, this can be done with `usethis` via the `use_git_config` function, i.e.
+If everything looks good, you should now stage your changes, both for `hw1.Rmd` and `hw1.md`, and the commit them with the message "Added name". Finally, now you should try to push these changes back to GitHub (using the green upward facing arrow). If this step fails remember that you also need to tell git who you are by giving it a name and email, this can be done with `usethis` via the `use_git_config` function, i.e.
 ```r
 usethis::use_git_config(user.name = "Your name", user.email = "Your email")
 ```
